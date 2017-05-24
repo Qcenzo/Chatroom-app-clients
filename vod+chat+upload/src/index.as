@@ -13,10 +13,10 @@ package
 	[SWF(width="1280", height="720", frameRate="60")]
 	public class index extends Sprite
 	{
-		private const VERSION:String = Math.random() + "";
+		private const VERSION:String = "1.0.0";
 		private const ROOT:String = "rtmp://localhost/chatroom";
 		private const UPLOAD:String = "http://localhost:5080/chatroom/upload";
-		private const LIVE:String = "http://localhost:5080/chatroom/live.swf";
+		private const LIVE:String = "http://localhost:5080/chatroom/live.html";
 		
 		private var conn:NetConnection;
 		private var logn:Login;
@@ -44,7 +44,7 @@ package
 			stage.mouseChildren = false;
 			Toast.me.show("连接服务器...", int.MAX_VALUE);
 			main.name = name;
-			main.liveUrl = LIVE +"?v=" + VERSION + "&name=" + name + "&avatar=" + avatar;
+			main.liveUrl = LIVE + "?v=" + VERSION + "&name=" + name + "&avatar=" + avatar;
 			conn.connect(ROOT, name, avatar, 0);
 		}
 		
