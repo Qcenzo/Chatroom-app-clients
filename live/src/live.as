@@ -47,6 +47,7 @@ package
 		{
 			if (event.info.code == "NetConnection.Connect.Success")
 			{
+				Toast.me.clear();
 				main.connection = nc;
 				addChild(main);
 			}
