@@ -1,0 +1,1 @@
+// ActionScript fileimport com.qcenzo.light.components.Button;import com.qcenzo.light.components.TextInput;import flash.display.Sprite;public var nameTi:TextInput;public var photoSp:Sprite;public var sureBt:Button;

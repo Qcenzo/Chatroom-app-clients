@@ -1,0 +1,1 @@
+// ActionScript fileimport com.qcenzo.light.components.Button;import com.qcenzo.light.components.Slider;public var brightnessSld:Slider;public var closeBt:Button;public var contrastSld:Slider;public var hueSld:Slider;public var saturationSld:Slider;

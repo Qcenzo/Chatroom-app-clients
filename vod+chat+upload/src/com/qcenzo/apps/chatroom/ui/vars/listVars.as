@@ -1,0 +1,1 @@
+// ActionScript fileimport flash.display.Bitmap;import flash.display.Sprite;import flash.text.TextField;public var line:Sprite;public var triangle:Bitmap;public var videoList:TextField;public var visitorList:TextField;public var visitorTab:Sprite;
