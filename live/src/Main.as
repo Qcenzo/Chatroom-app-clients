@@ -46,8 +46,6 @@ package
 			
 			setupSetting();
 			
-			light24k.visible = false;
-			
 			this.name = name;
 			nameTf.htmlText = "<font color='#FF0000'>" + name + "</font> 的直播间";
 			photoLoad.url = "assets/avatar/" + avatar + ".png";
@@ -55,7 +53,6 @@ package
 			setupWaterMark();
 			
 			setupToggle();
-			setupEffectList();
 			setupVolume();
 			securityBt.onClick = Security.showSettings;
 			
@@ -150,12 +147,6 @@ package
 			playToggleSp.getChildAt(0).visible = status;
 		}
 		
-		private function setupEffectList():void
-		{
-			eye0.visible = eye1.visible = false;
-			mouth0.visible = mouth1.visible = false;
-		}
-		
 		private function setupVolume():void
 		{
 			volSp.addEventListener(MouseEvent.CLICK, onVolToggle);  
@@ -183,14 +174,10 @@ package
 		}
 		
 		//---------------------------------------------------------------
-		// startLive
+		// 
 		//
 		//
 		//---------------------------------------------------------------
-		private function streamName():String
-		{
-			return name + "s show";
-		}
 		
 		private function startLive():void
 		{
@@ -240,5 +227,10 @@ package
 			else
 				timeTf.text = "00:00:" + int(n + 100).toString().substr(1);
 		}
+		
+		private function streamName():String
+		{
+			return name + "s show";
+		}		
 	}
 }
