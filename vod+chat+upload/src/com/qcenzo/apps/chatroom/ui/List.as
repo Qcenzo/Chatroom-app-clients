@@ -41,7 +41,7 @@ package com.qcenzo.apps.chatroom.ui
 			}
 			videoList.htmlText = "<textformat leading='4'>" + 
 				"\r<font color='#FF0000'>[置顶]</font><a href='event:" + ListEvent.LIVE + "'>我要直播</a>" +
-				"\r<font color='#FF0000'>[置顶]</font><a href='event:" + ListEvent.UPLOAD + "'>上传视频(文件大小不超过100MB)</a>"
+				"\r<font color='#FF0000'>[置顶]</font><a href='event:" + ListEvent.UPLOAD + "'>上传视频(*.flv;*.mp4;&lt;100MB)</a>"
 				+ l + "</textformat>";
 		}
 		

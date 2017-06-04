@@ -4,7 +4,6 @@ package com.qcenzo.apps.chatroom.ui
 	import com.qcenzo.apps.chatroom.effects.Snow;
 	import com.qcenzo.apps.chatroom.utils.StringTool;
 	import com.qcenzo.light.components.Document;
-	import com.qcenzo.light.components.IPlayer;
 	import com.qcenzo.light.components.SimpleLoader;
 	
 	import flash.display.DisplayObject;

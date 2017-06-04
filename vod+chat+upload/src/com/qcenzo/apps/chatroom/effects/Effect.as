@@ -25,7 +25,7 @@ package com.qcenzo.apps.chatroom.effects
 			tmr.stop();
 		}
 		
-		public final function clear():void
+		public function clear():void
 		{
 			tmr.stop();
 			tmr.removeEventListener(TimerEvent.TIMER, onTimer);

@@ -1,10 +1,9 @@
 package com.qcenzo.apps.chatroom.ui
 {
 	import com.qcenzo.apps.chatroom.events.ListEvent;
-	import com.qcenzo.light.components.IPlayer;
+	import com.qcenzo.apps.chatroom.net.FileUploader;
+	import com.qcenzo.apps.chatroom.net.NetStreamX;
 	import com.qcenzo.light.components.Toast;
-	import com.qcenzo.light.net.FileUploader;
-	import com.qcenzo.light.net.NetStreamX;
 	
 	import flash.display.Sprite;
 	import flash.events.NetStatusEvent;
